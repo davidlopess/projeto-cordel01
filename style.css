@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root{
+    --font01:'Arial', sans-serif;
+    --font02: 'Passion One', sans-serif;
+    --font03: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+
+html, body {
+    background-color: beige;
+    height: 100vh;
+    font-family: var(--font01);
+   
+}
+header{
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1{
+    font-family: var(--font02);
+    font-size: 10vw;
+    padding-top: 50px;
+    font-variant: small-caps; /* deixa as letras maiusculas, porem as inicias ficam maior */
+}
+
+header p{
+    padding-bottom: 50px;
+}
+ a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+section{
+    padding: 10vh 0px 10vh 30px;
+    font-size: 3vw;
+    font-family: var(--font03);
+    
+}
+section p{
+    padding-bottom: 1.5em;
+}
+.normal{
+    background-color: rgb(231, 231, 231); 
+}
+
+.imagem{
+    box-shadow: inset 6px 6px 13px 0px  rgba(0, 0, 0, 0.781);
+    background-size: cover;
+}
+ #img01{
+    background-image: url(imagens/background001.jpg);
+    
+    background-attachment: fixed;
+    background-position: right center;
+    background-color: rgb(54, 55, 53);
+    color: white;
+}
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+    background-color: rgb(54, 55, 53);
+    color: white;
+}
+
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.19);
+   display: inline-block;
+    padding: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+ a:hover{
+    color: rgba(215, 214, 214, 0.757);
+    text-decoration: underline;
+}
